@@ -1,5 +1,9 @@
-WebApplication1/.vs/
+WebApplication1/.vs/*
 WebApplication1/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 WebApplication1/bin/
 WebApplication1/Log/
 WebApplication1/obj/
+WebApplication1/Properties/PublishProfiles/Publish.pubxml
+.vs/config/applicationhost.config
+.vs/TUDAI_Practico1/v14/.suo
+WebApplication1/Properties/PublishProfiles/Publish.pubxml.user
