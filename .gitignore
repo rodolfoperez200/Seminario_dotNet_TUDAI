@@ -7,3 +7,5 @@ WebApplication1/Properties/PublishProfiles/Publish.pubxml
 .vs/config/applicationhost.config
 .vs/TUDAI_Practico1/v14/.suo
 WebApplication1/Properties/PublishProfiles/Publish.pubxml.user
+packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0.nupkg
+packages/

@@ -9,10 +9,20 @@ namespace WebApplication1
 {
     public partial class Default : System.Web.UI.Page
     {
+
+        protected void Page_Init(object sender, EventArgs e)
+        {
+            Logger.WriteLog("Se ejecuto Default->Page_Init");
+            TextBox1.Text = "Hola mundo";
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             Logger.WriteLog("Se ejecuto Default->Page_Load");
-            TextBox1.Text = "Hola mundo";
+            if (Page.IsPostBack)
+            {
+                Logger.WriteLog("IsPostBack");
+            }
         }
 
 
